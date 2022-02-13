@@ -3,7 +3,7 @@
     <title>A place for stuff</title>
     <link href="https://gazzar.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://gazzar.github.io/gh-pages" />
-    <updated>2022-02-13T18:25:35+11:00</updated>
+    <updated>2022-02-13T20:09:01+11:00</updated>
     <author>
         <name>Gary Ruben</name>
     </author>
@@ -47,7 +47,7 @@
             <category term="music"/>
             <category term="modwave"/>
 
-        <updated>2022-02-13T18:25:35+11:00</updated>
+        <updated>2022-02-13T20:09:01+11:00</updated>
             <summary>
                 <![CDATA[
                     How I sampled the drumkits in my microSTATION This post is more of a log of the steps I followed than an explanatory description of the steps to sample the Korg microSTATION drumkits. The Korg modwave ships with three factory drumkits brought over from the&hellip;
@@ -57,7 +57,7 @@
             <![CDATA[
                 <h2 id="how-i-sampled-the-drumkits-in-my-microstation">How I sampled the drumkits in my microSTATION</h2>
 <p>This post is more of a log of the steps I followed than an explanatory description of the steps to sample the Korg microSTATION drumkits.</p>
-<p>The Korg modwave ships with three factory drumkits brought over from the original Korg Wavestation, which pre-dated the now-standard GM-midi mapping of drums to the standard keyboard. I think keyboard drums played by a practised player are the next best thing to a real drummer [1-3]. I love the GM-drumkits in my Korg microSTATION, so they seemed like the perfect subject for learning to create multisamples for the modwave.<br>[1] <a href="https://youtu.be/3YNh3Qzd7X4">Aleksey Boyarintcev</a> masterfully playing microSTATION drums<br>[2] <a href="#INTERNAL_LINK#/post/null">"Uncle" Taekyung</a> playing through a number of microSTATION kits<br>[3] <a href="https://www.youtube.com/channel/UCGGgrpgOZ-DMvjLSYxn8W3w">Dom Sigalas's</a> great keyboard fingerdrumming tutorial</p>
+<p>The Korg modwave ships with three factory drumkits brought over from the original Korg Wavestation, which pre-dated the now-standard GM-midi mapping of drums to the standard keyboard. I think keyboard drums played by a practised player are the next best thing to a real drummer [1-3]. I love the GM-drumkits in my Korg microSTATION, so they seemed like the perfect subject for learning to create multisamples for the modwave.<br>[1] <a href="https://youtu.be/3YNh3Qzd7X4">Aleksey Boyarintcev</a> masterfully playing microSTATION drums<br>[2] <a href="https://youtu.be/_8oBVX1fIqA?t=1955" target="_blank" rel="noopener noreferrer">"Uncle" Taekyung</a> playing through a number of microSTATION kits<br>[3] <a href="https://youtu.be/TxD30s4jvcw" target="_blank" rel="noopener noreferrer">Dom Sigalas's</a> great keyboard fingerdrumming tutorial</p>
 <h3>Software used</h3>
 <p>Windows 10 Home 21H2<br>Akai MPC Beats 2.10.0<br>Reaper DAW v6.46<br>Endless WAV 1.7.8b15<br>Korg Sample Builder 1.0.2</p>
 <h3>Steps</h3>
