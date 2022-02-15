@@ -3,7 +3,7 @@
     <title>A place for stuff</title>
     <link href="https://gazzar.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://gazzar.github.io/gh-pages" />
-    <updated>2022-02-15T22:09:23+11:00</updated>
+    <updated>2022-02-15T22:25:57+11:00</updated>
     <author>
         <name>Gary Ruben</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="music"/>
             <category term="modwave"/>
 
-        <updated>2022-02-15T22:09:23+11:00</updated>
+        <updated>2022-02-15T22:25:57+11:00</updated>
             <summary>
                 <![CDATA[
                     The Korg modwave supports float32-per-sample, 2048 sample-per-wave, 1-64 wave-per-wavetables. The modwave Editor Librarian can load .wav files in this format, or as 16-bit-per-sample, 512 sample-per-wave .wav files, which are converted on import. Vital and its open-source counterpart Vitalium is a wavetable VST softsynth that has&hellip;
@@ -28,8 +28,10 @@
         <content type="html">
             <![CDATA[
                 <p>The Korg modwave supports float32-per-sample, 2048 sample-per-wave, 1-64 wave-per-wavetables. The modwave Editor Librarian can load .wav files in this format, or as 16-bit-per-sample, 512 sample-per-wave .wav files, which are converted on import.</p>
-<p>Vital and its open-source counterpart Vitalium is a wavetable VST softsynth that has excellent wavetable design features. It exports wavetables as 16 bit, 2048 sample-per-wave, 256 wave-per-wavetable .wav files, which the Editor Librarian fails to import. I wrote a Python commandline tool to convert these wavetables to a format that can be imported. <a href="https://github.com/gazzar/modwavify" target="_blank" rel="noopener noreferrer">modwavify.py</a> is free, open-source software with an MIT license.</p>
-<p>For example, if a wavetable is exported from Vital with the name wavetable.wav, to convert it:</p>
+<p>Vital and its open-source counterpart Vitalium is a wavetable VST softsynth that has excellent wavetable design features. It exports wavetables as 16 bit, 2048 sample-per-wave, 256 wave-per-wavetable .wav files, which the Editor Librarian fails to import. I wrote a Python commandline tool to convert these wavetables to a format that can be imported</p>
+<h2>Using modwavify.py</h2>
+<p><a href="https://github.com/gazzar/modwavify" target="_blank" rel="noopener noreferrer">modwavify.py</a> is free, open-source software with an MIT license. It requires Python to be installed first. After that, follow the above link for installation instructions.</p>
+<p>As a simple example, if a wavetable is exported from Vital with the name wavetable.wav, to convert it:</p>
 <div class="snippet-clipboard-content position-relative overflow-auto">
 <pre><code>&gt; python modwavify.py wavetable.wav
 wavetable.wav: 88200 samples, Max excursion 0.371002197265625
