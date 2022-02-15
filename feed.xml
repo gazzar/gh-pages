@@ -3,12 +3,64 @@
     <title>A place for stuff</title>
     <link href="https://gazzar.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://gazzar.github.io/gh-pages" />
-    <updated>2022-02-13T20:12:40+11:00</updated>
+    <updated>2022-02-15T22:09:23+11:00</updated>
     <author>
         <name>Gary Ruben</name>
     </author>
     <id>https://gazzar.github.io/gh-pages</id>
 
+    <entry>
+        <title>Converting wavetables for the modwave</title>
+        <author>
+            <name>Gary Ruben</name>
+        </author>
+        <link href="https://gazzar.github.io/gh-pages/converting-wavetables-for-the-modwave-using-modwavify.html"/>
+        <id>https://gazzar.github.io/gh-pages/converting-wavetables-for-the-modwave-using-modwavify.html</id>
+            <category term="music"/>
+            <category term="modwave"/>
+
+        <updated>2022-02-15T22:09:23+11:00</updated>
+            <summary>
+                <![CDATA[
+                    The Korg modwave supports float32-per-sample, 2048 sample-per-wave, 1-64 wave-per-wavetables. The modwave Editor Librarian can load .wav files in this format, or as 16-bit-per-sample, 512 sample-per-wave .wav files, which are converted on import. Vital and its open-source counterpart Vitalium is a wavetable VST softsynth that has&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>The Korg modwave supports float32-per-sample, 2048 sample-per-wave, 1-64 wave-per-wavetables. The modwave Editor Librarian can load .wav files in this format, or as 16-bit-per-sample, 512 sample-per-wave .wav files, which are converted on import.</p>
+<p>Vital and its open-source counterpart Vitalium is a wavetable VST softsynth that has excellent wavetable design features. It exports wavetables as 16 bit, 2048 sample-per-wave, 256 wave-per-wavetable .wav files, which the Editor Librarian fails to import. I wrote a Python commandline tool to convert these wavetables to a format that can be imported. <a href="https://github.com/gazzar/modwavify" target="_blank" rel="noopener noreferrer">modwavify.py</a> is free, open-source software with an MIT license.</p>
+<p>For example, if a wavetable is exported from Vital with the name wavetable.wav, to convert it:</p>
+<div class="snippet-clipboard-content position-relative overflow-auto">
+<pre><code>&gt; python modwavify.py wavetable.wav
+wavetable.wav: 88200 samples, Max excursion 0.371002197265625
+wavetable_mw.wav: reduced by factor 4 to 64 waves
+</code></pre>
+</div>
+<p dir="auto">As well as the converted wavetable <strong>wavetable_mw.wav</strong>, it also generates a waterfall plot image of the waves in <strong>wavetable.png</strong>:</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/gazzar/modwavify/blob/main/wavetable.png"><img loading="lazy" src="https://github.com/gazzar/modwavify/raw/main/wavetable.png" data-is-external-image="true"  alt="wavetable plot"></a></p>
+<p dir="auto"><span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d3f4x2em iv3no6db jq4qci2q a3bd9o3v b1v8xokw oo9gr5id hzawbc8m" dir="auto">modwavify supports conversion of arbitrary (2048-sample minimum length) .wav files so they will convert into something that can be loaded as a modwave wavetable. This is a crude form of resynthesis, but it's not doing anything intelligent.</span></p>
+<p dir="auto">There are a few other options, as follows:</p>
+<div class="snippet-clipboard-content position-relative overflow-auto">
+<pre><code>&gt; python modwavify.py --help
+Usage: modwavify.py [OPTIONS] FILEPATH
+
+Downsamples a 2048-sample-per-wave wavetable to be modwave compatible.
+
+Options:
+--average             Chooses waves from input by local-average instead of
+                        by stride.
+--local / --no-local  Normalize each wave to local (default) or global max.
+--flip                Reverses the wave order in the wavetable.
+--crop                Crop to first 64 waves instead of averaging.
+--no-thumb            Set this to skip the thumbnail plot.
+--help                Show this message and exit.
+</code></pre>
+</div>
+<h2 dir="auto">Another free option for converting wavetables</h2>
+<p>The only other free tool worth mentioning is Jeremy Bernstein's WaveEdit fork <a href="https://github.com/jeremybernstein/modwaveEdit" target="_blank" rel="noopener noreferrer">modwaveEdit</a>. It is a complete wavetable creation environment that many may prefer over my Python tool. <span class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d3f4x2em iv3no6db jq4qci2q a3bd9o3v b1v8xokw oo9gr5id hzawbc8m" dir="auto">modwavify's default behaviour is most similar to importing a wavetable into modwaveEdit then clicking the Normalize checkbox in the Effect Editor, before then saving the wavetable.</span></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Sampling with the Korg mini kaoss pad 2S</title>
         <author>
