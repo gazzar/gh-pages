@@ -3,7 +3,7 @@
     <title>A place for stuff</title>
     <link href="https://gazzar.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://gazzar.github.io/gh-pages" />
-    <updated>2022-12-22T21:49:43+11:00</updated>
+    <updated>2022-12-24T11:42:49+11:00</updated>
     <author>
         <name>Gary Ruben</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="music"/>
             <category term="minilogue"/>
 
-        <updated>2022-12-22T21:49:43+11:00</updated>
+        <updated>2022-12-24T11:42:49+11:00</updated>
             <summary>
                 <![CDATA[
                     This is a guide for minilogue xd owners to finding free (as in beer) patches/programs (hereafter called patches), i.e. patches others have made and kindly shared for free. There are generally two ways to get xd patches: 1. find some patches designed for the xd,&hellip;
@@ -32,12 +32,8 @@
     This is a guide for minilogue xd owners to finding free (as in beer) patches/programs (hereafter called patches), i.e. patches others have made and kindly shared for free.
   </p>
 
-    <h3 id="converting-patchesprograms-from-the-minilogue-og">
-      Converting patches/programs from the minilogue og
-    </h3>
-
   <p>
-    There are generally two ways to get xd patches:<br>1. find some patches designed for the xd,<br>2. convert patches made for the original minilogue (aka the minilogue og).<br>My covid lockdown project was <a href="https://github.com/gazzar/loguetools" target="_blank">a free app to convert minilogue xd patches for the minilogue og</a>. Download it <a href="https://github.com/gazzar/loguetools/releases" target="_blank">here</a>. It is also useful for a few other tasks, such as <em>exploding</em> a patch library into individual patches.
+    There are generally two ways to get xd patches:<br>1. find some patches designed for the xd,<br>2. convert patches made for the original minilogue (aka the minilogue og).<br>My covid lockdown project was <a href="https://github.com/gazzar/loguetools" target="_blank">a free app to convert minilogue og patches to the minilogue xd</a>. Download it <a href="https://github.com/gazzar/loguetools/releases" target="_blank">here</a>. It is also useful for a few other tasks, such as <em>exploding</em> a patch library into individual patches.
   </p>
 
     <h3 id="minilogue-xd-patchesprograms">
@@ -49,7 +45,7 @@
   </p>
 
   <ul>
-    <li><a href="https://www.presetpatch.com/synth/korg-minilogue-xd" target="_blank">presetpatch.com minilogue xd</a> patches<br></li><li><a href="https://www.ultimatepatches.com/synth-patches-presets/zone-free/free-korg-minilogue-xd-patches-presets.html" target="_blank">ultimatepatches</a> taster<br></li><li>Bo Nurmi made a <a href="https://bobeats.gumroad.com/l/MinilogueXDPresets" target="_blank">64 patch library</a> available as "pay-what-you-want," where what-you-want starts from 0 dollars</li>
+    <li><a href="https://www.presetpatch.com/synth/korg-minilogue-xd" target="_blank">presetpatch.com minilogue xd</a> patches</li><li>Bo Nurmi made a <a href="https://bobeats.gumroad.com/l/MinilogueXDPresets" target="_blank">64 patch library</a> available as "pay-what-you-want," where what-you-want starts from 0 dollars</li><li><a href="https://www.ultimatepatches.com/synth-patches-presets/zone-free/free-korg-minilogue-xd-patches-presets.html" target="_blank">ultimatepatches</a> taster&nbsp;<br></li>
   </ul>
 
     <h3 id="minilogue-og-patchesprograms">
