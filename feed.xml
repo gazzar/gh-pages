@@ -3,7 +3,7 @@
     <title>A place for stuff</title>
     <link href="https://gazzar.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://gazzar.github.io/gh-pages" />
-    <updated>2023-03-08T23:54:46+11:00</updated>
+    <updated>2023-07-23T11:15:08+10:00</updated>
     <author>
         <name>Gary Ruben</name>
     </author>
@@ -19,10 +19,10 @@
             <category term="music"/>
             <category term="modwave"/>
 
-        <updated>2023-01-01T23:59:20+11:00</updated>
+        <updated>2023-03-18T18:48:49+11:00</updated>
             <summary>
                 <![CDATA[
-                    A4 "posters" with different visualisations of the Korg modwave's (v1.1.3) factory wavetables. Download links (left-to-right): Waterfall plots&nbsp; Cool-warm plotsWarm plots
+                    A4 "posters" with different visualisations of the Korg modwave's (v1.1.3) factory wavetables. Download links (left-to-right): The code used to generate these plots is here.
                 ]]>
             </summary>
         <content type="html">
@@ -87,8 +87,12 @@
   </p>
 
   <ul>
-    <li><a href="https://gazzar.github.io/gh-pages/media/files/factory_wavetables_waterfall.pdf" download>Waterfall plots</a>&nbsp;<br></li><li><a href="https://gazzar.github.io/gh-pages/media/files/factory_wavetables_coolwarm.pdf" download>Cool-warm plots</a></li><li><a href="https://gazzar.github.io/gh-pages/media/files/factory_wavetables_warm.pdf" download>Warm plots</a><br></li>
+    <li><a href="https://gazzar.github.io/gh-pages/media/files/factory_wavetables_waterfall.pdf" download>Waterfall plots</a>&nbsp;<br></li><li><a href="https://gazzar.github.io/gh-pages/media/files/factory_wavetables_coolwarm.pdf" download>Cool-warm plots</a></li><li><a href="https://gazzar.github.io/gh-pages/media/files/factory_wavetables_warm.pdf" download>Warm plots</a></li>
   </ul>
+
+  <p>
+    The code used to generate these plots is <a href="https://gist.github.com/gazzar/00baba648e58b9cf4206ec2ac8d333e3" target="_blank">here</a>.
+  </p>
             ]]>
         </content>
     </entry>
@@ -102,10 +106,10 @@
             <category term="music"/>
             <category term="minilogue"/>
 
-        <updated>2023-03-08T23:54:46+11:00</updated>
+        <updated>2023-07-23T11:15:08+10:00</updated>
             <summary>
                 <![CDATA[
-                    This is a guide for minilogue xd owners to finding free (as in beer) patches/programs (hereafter called patches), i.e. patches others have made and kindly shared for free. I have my own free patches on&nbsp;presetpatch.com, which&nbsp;is a site for sharing free patches. Note that some&hellip;
+                    This is a guide for minilogue xd owners to finding free (as in beer) patches/programs (hereafter called patches), i.e. patches others have made and kindly shared for free. Some patches I made are on&nbsp;presetpatch.com, which&nbsp;is a site for sharing free patches. Note that some of&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -124,11 +128,11 @@
     </h3>
 
   <p>
-    I have my own free patches on&nbsp;<a href="https://www.presetpatch.com/" target="_blank" class="" data-link-popup-id="1671660492953">presetpatch.com</a>, which&nbsp;is a site for sharing free patches. Note that some of these are full patch banks containing dozens of individual patches. Some patch developers offer free patches as tasters, or out of generosity.<br>
+    Some patches I made are on&nbsp;<a href="https://www.presetpatch.com/" target="_blank" class="" data-link-popup-id="1671660492953">presetpatch.com</a>, which&nbsp;is a site for sharing free patches. Note that some of these are full patch banks containing dozens of individual patches. Some patch developers offer free patches as tasters, or out of generosity.<br>
   </p>
 
   <ul>
-    <li><a href="https://www.presetpatch.com/synth/korg-minilogue-xd" target="_blank">presetpatch.com minilogue xd</a> patches</li><li>Bo Nurmi made a <a href="https://bobeats.gumroad.com/l/MinilogueXDPresets" target="_blank">64 patch library</a> available as "pay-what-you-want," where what-you-want starts from 0 dollars</li><li><a href="https://www.ultimatepatches.com/synth-patches-presets/zone-free/free-korg-minilogue-xd-patches-presets.html" target="_blank">ultimatepatches</a> taster<br></li><li>Killstarr's free&nbsp;<a href="https://beacons.ai/killstarr" target="_blank">synthwave preset pack</a><br></li>
+    <li><a href="https://www.presetpatch.com/synth/korg-minilogue-xd" target="_blank">presetpatch.com minilogue xd</a> patches</li><li>Bo Nurmi made a <a href="https://bobeats.gumroad.com/l/MinilogueXDPresets" target="_blank">64 patch library</a> available as "pay-what-you-want," where what-you-want starts from 0 dollars</li><li><a href="https://www.ultimatepatches.com/synth-patches-presets/zone-free/free-korg-minilogue-xd-sounds.html" target="_blank" class="">ultimatepatches</a> taster<br></li><li><a href="https://www.robustamericanpatches.com/products/10-free-for-the-minilogue-xd" target="_blank" class="">robustamericanpatches</a>&nbsp;taster<br></li><li><a href="https://polifoniasounds.bandcamp.com/album/korg-minilogue-xd-free-preset-pack" target="_blank">Polifonia Sounds</a> taster<br></li><li>Killstarr's free&nbsp;<a href="https://beacons.ai/killstarr" target="_blank">synthwave preset pack</a><br></li>
   </ul>
 
     <h3 id="minilogue-og-patches-for-conversion-to-the-xd-by-loguetools">
@@ -137,11 +141,11 @@
 
   <p>
     While free patches can be found for xd, they can also be converted from patches made for the original minilogue (aka the minilogue og).
-<br>My covid lockdown project <em><strong><a href="https://github.com/gazzar/loguetools" class="" target="_blank">loguetools</a> </strong></em>is a free app to convert minilogue og patches to the minilogue xd. <a href="https://github.com/gazzar/loguetools/releases" target="_blank">Download it here</a>. It is also useful for a few other tasks, such as exploding a patch library into individual patches.
+<br>My covid lockdown project <em><strong><a href="https://github.com/gazzar/loguetools" class="" target="_blank" data-link-popup-id="e0010729-5fd7-4e69-be5b-7c2909f4ff03">loguetools</a> </strong></em>is a free app to convert minilogue og patches to the minilogue xd.&nbsp;It is also useful for a few other tasks, such as exploding a patch library into individual patches.
   </p>
 
   <ul>
-    <li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal);">A number of "sound packs" can be downloaded from </span><a href="https://www.korg.com/au/products/synthesizers/minilogue/librarian_contents.php" target="_blank" style="font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal); background-color: ; font-style: ; font-variant-ligatures: ; font-variant-caps: ;">Korg's website</a><br></li><li>The factory patches for the minilogue og are contained in the <a href="https://www.korg.com/au/products/synthesizers/minilogue/librarian_contents.php" target="_blank" class="" data-link-popup-id="1671660526248">minilogue og librarian</a>; this can be installed and the factory patches exported from it, ready for conversion</li><li>presetpatch.com has <a href="https://www.presetpatch.com/synth/korg-minilogue" target="_blank">minilogue og patches</a></li><li>Bo Nurmi made 201 minilogue og patches available (<a href="https://bobeats.gumroad.com/l/100miniloguePatches" target="_blank">101 here</a> and another <a href="https://bobeats.gumroad.com/l/100NewMiniloguePresets" target="_blank">100 here</a>) under the "pay-what-you-want" model<br></li><li>Ritualz&nbsp;<a href="http://ritualz.com/downloads/" target="_blank" class="" data-link-popup-id="1671660526248">50 free minilogue patches</a><br></li>
+    <li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal);">A number of "sound packs" can be downloaded from </span><a href="https://www.korg.com/au/products/synthesizers/minilogue/librarian_contents.php" target="_blank" style="font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal); background-color: ; font-style: ; font-variant-ligatures: ; font-variant-caps: ;">Korg's website</a><br></li><li>The factory patches for the minilogue og are contained in the <a href="https://www.korg.com/au/products/synthesizers/minilogue/librarian_contents.php" target="_blank" class="" data-link-popup-id="1671660526248">minilogue og librarian</a>; this can be installed and the factory patches exported from it, ready for conversion</li><li>presetpatch.com has <a href="https://www.presetpatch.com/synth/korg-minilogue" target="_blank">minilogue og patches</a></li><li>Bo Nurmi made 201 minilogue og patches available (<a href="https://bobeats.gumroad.com/l/100miniloguePatches" target="_blank">101 here</a> and another <a href="https://bobeats.gumroad.com/l/100NewMiniloguePresets" target="_blank">100 here</a>) under the "pay-what-you-want" model<br></li><li>Ritualz&nbsp;<a href="http://ritualz.com/downloads/" target="_blank" class="" data-link-popup-id="1671660526248">50 free minilogue patches</a></li><li>treenotemusic&nbsp;<a href="https://treenotemusic.ca/news.html#minilogue" target="_blank">76 free patches</a><br></li><li><a href="https://www.ultimatepatches.com/synth-patches-presets/zone-free/free-korg-minilogue-sounds.html" target="_blank">ultimatepatches</a>&nbsp;taster<br></li>
   </ul>
 
   <p>
