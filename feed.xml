@@ -3,7 +3,7 @@
     <title>A place for stuff</title>
     <link href="https://gazzar.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://gazzar.github.io/gh-pages" />
-    <updated>2024-01-06T18:04:03+11:00</updated>
+    <updated>2024-01-06T18:50:21+11:00</updated>
     <author>
         <name>Gary Ruben</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://gazzar.github.io/gh-pages/modwave-pre-fx-wave-shaper-types.html"/>
         <id>https://gazzar.github.io/gh-pages/modwave-pre-fx-wave-shaper-types.html</id>
+            <category term="modwave"/>
 
-        <updated>2024-01-06T18:04:03+11:00</updated>
+        <updated>2024-01-06T18:50:21+11:00</updated>
             <summary>
                 <![CDATA[
                     The Korg modwave has an extensive Pre FX section with compression, saturation/distortion (via the Amp models), decimation (for additional/finer control than the Oscillator Mod Vintage and Steps settings), ring mod [the Note (Key Follow) OSC Mode is a hidden gem here], Tremolo. Then there's the&hellip;
