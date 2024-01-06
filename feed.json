@@ -10,6 +10,34 @@
     },
     "items": [
         {
+            "id": "https://gazzar.github.io/gh-pages/modwave-pre-fx-wave-shaper-types.html",
+            "url": "https://gazzar.github.io/gh-pages/modwave-pre-fx-wave-shaper-types.html",
+            "title": "modwave Pre FX Wave Shaper Types ",
+            "summary": "The Korg modwave has an extensive Pre FX section with compression, saturation/distortion (via the Amp models), decimation (for additional/finer control than the Oscillator Mod Vintage and Steps settings), ring mod [the Note (Key Follow) OSC Mode is a hidden gem here], Tremolo. Then there's the&hellip;",
+            "content_html": "\n  <p>\n    The Korg modwave has an extensive Pre FX section with compression, saturation/distortion (via the Amp models), decimation (for additional/finer control than the Oscillator Mod Vintage and Steps settings), ring mod [the Note (Key Follow) OSC Mode is a hidden gem here], Tremolo. Then there's the Wave Shaper for extreme wave mangling. It provides wave folding and clipping through 60 different nonlinear preset functions. These aren't accessible through the hardware modwave's panel, and require the editor or modwave native VST plugin.\n  </p>\n\n  <p>\n    The downloadable pdf contains a table showing the effect of passing a sine wave through each of the 60 wave shaper types.  If you can imagine what these sound like, you have a better imagination than I do. Still, I created this because I think it can suggest which shaper type might be appropriate for a certain effect.\n  </p>\n\n  <p>\n    The primary control for the wave shaper is the Scale value, which ranges from -36 to +36. The output is shown for more extreme range Scale values of 25.8, 29.6, and 36.0. For lower values, you'll have to mentally extrapolate the plots back towards the pure sine wave.\n  </p>\n\n    <h2 id=\"an-example-table-entry\">\n      An example table entry\n    </h2>\n\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://gazzar.github.io/gh-pages/media/posts/12/gallery/image-092.jpg\" data-size=\"3270x2360\">\n        <img loading=\"lazy\" src=\"https://gazzar.github.io/gh-pages/media/posts/12/gallery/image-092-thumbnail.jpg\" height=\"520\" width=\"720\" alt=\"Take 2, Scale = 25.8\" >\n      </a>\n      <figcaption>Take 2, Scale = 25.8</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://gazzar.github.io/gh-pages/media/posts/12/gallery/image-093.jpg\" data-size=\"3270x2360\">\n        <img loading=\"lazy\" src=\"https://gazzar.github.io/gh-pages/media/posts/12/gallery/image-093-thumbnail.jpg\" height=\"520\" width=\"720\" alt=\"Take 2, Scale = 25.8\" >\n      </a>\n      <figcaption>Take 2, Scale = 29.6</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://gazzar.github.io/gh-pages/media/posts/12/gallery/image-094.jpg\" data-size=\"3270x2355\">\n        <img loading=\"lazy\" src=\"https://gazzar.github.io/gh-pages/media/posts/12/gallery/image-094-thumbnail.jpg\" height=\"518\" width=\"720\" alt=\"Take 2, Scale = 25.8\" >\n      </a>\n      <figcaption>Take 2, Scale = 36.0</figcaption>\n    </figure>\n    </div>\n  </div>\n\n  <p>\n    <a href=\"https://gazzar.github.io/gh-pages/media/files/waveshaper_table.pdf\" download class=\"\" target=\"_blank\">Download the table</a>\n  </p>",
+            "author": {
+                "name": "Gary Ruben"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-01-06T17:36:54+11:00",
+            "date_modified": "2024-01-06T18:04:03+11:00"
+        },
+        {
+            "id": "https://gazzar.github.io/gh-pages/envelopes-using-the-modwave-motion-sequencer.html",
+            "url": "https://gazzar.github.io/gh-pages/envelopes-using-the-modwave-motion-sequencer.html",
+            "title": "Envelopes using the modwave Motion Sequencer",
+            "summary": "In which I describe how to&nbsp;implement complex envelopes such as DADSR (sort of) and DW-8000-style ADBSSR envelopes using the motion sequencer in the modwave. The principles extend to more complex types. We will create an envelope amplitude for use as a modulation source using the&hellip;",
+            "content_html": "\n  <p>\n    In which I describe how to&nbsp;implement complex envelopes such as DADSR (sort of) and DW-8000-style ADBSSR envelopes using the motion sequencer in the modwave. The principles extend to more complex types.\n  </p>\n\n  <p>\n    We will create an envelope amplitude for use as a modulation source using the Seq A lane of the Motion Sequencer. This is used in concert with one of the modwave's 4 standard envelopes. For all the envelopes described in this page only the pre-Release stages are implemented in the motion sequencer, which stops stepping when it reaches the Sustain section. The Release stage is then used to set the&nbsp;release time and curve. The envelopes in the Shape lane can be used for finer control to go beyond simple linear or exponential curves. Remember to enable the motion sequencer.\n  </p>\n\n    <h2 id=\"adsr\">\n      ADSR\n    </h2>\n\n  <p>\n    We start with reproducing the ADSR envelope, by way of introduction.<br>We use 3 steps, for A, D, and S stages<br><strong>Timing lane</strong><br>Used to set the Attack time, Decay time, and a Gate step for the sustain stage.<br>Lane settings: Time Mode, Speed: 1.0 (adjust to taste), Loop Start Step: A1,&nbsp;Loop End Step: A3<br><strong>Seq A lane</strong><br>Used to set the initial level, EG level (envelope amplitude), and sustain level.<br>Lane settings: Loop Start Step: A1, Loop End Step: A3, Transition Type: Individual, Use Shape<br>\n  </p>\n\n    <h2 id=\"adbssr\">\n      ADBSSR\n    </h2>\n\n  <p>\n    Attack, Decay, Break, Slope, Sustain, Release\n  </p>\n\n    <h2 id=\"dadsr\">\n      DADSR\n    </h2>\n\n  <p>\n    Delay,&nbsp;Attack, Decay, Sustain, Release\n  </p>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Gary Ruben"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-01-01T16:34:01+11:00",
+            "date_modified": "2024-01-01T16:34:01+11:00"
+        },
+        {
             "id": "https://gazzar.github.io/gh-pages/modwave-factory-wavetable-poster.html",
             "url": "https://gazzar.github.io/gh-pages/modwave-factory-wavetable-poster.html",
             "title": "modwave factory-wavetables poster",
